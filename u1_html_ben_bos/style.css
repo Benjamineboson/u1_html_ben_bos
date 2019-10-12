@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+
+hr{
+    margin-right: 2em;
+    width: 1.5em;
+    position: relative;
+    top: 0.3em;
+}
+#dropdown-menu{
+    background: black;
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    display: none;
+}
+#hamburger-menu:hover #dropdown-menu{
+display: block;
+}
+#hamburger-menu{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    background: white;
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    position: fixed;
+    display: none;
+    z-index: 1;
+}
+@media only screen and (max-width: 375px){
+    #hamburger-menu{
+        display: block;
+    }
+    #first-div{
+        display: none;
+    }
+}
+#hamburger-button{
+    height: 2em;
+    widows: 2em;
+    background: black;
+    color: black;
+}
+#first-div{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    background: white;
+    width: 100%;
+    height: 49px;
+    position: fixed;
+    z-index: 2;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+button{
+    position: absolute;
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    background: white;
+    width: 6em;
+    height: 50px; 
+    cursor: pointer;
+    font-family: 'Amatic SC', cursive; 
+    font-weight: bold;
+    font-size: 1.2em;
+    transition-duration: 0.4s;
+}
+button::-moz-focus-inner{
+    border:0;
+}
+a{
+    outline: 0;
+}
+button:hover{
+    background: rgb(66, 70, 129);
+    color: white;
+    border-bottom-color: rgb(159, 139, 247);
+    border-bottom-width: 1px;
+}
+#contact-button{
+    left: 12em;    
+}
+#gallery-button{
+    left: 18em;
+}
+#git-button{
+    left: 6em;
+}
+#home-button{
+    left: 0em;
+    color: white;
+    background: green;
+}
+#home-button:hover{
+    background: rgb(2, 66, 2);
+    border-bottom-color: rgb(31, 196, 16);
+}
+#main-div{
+    position: relative;
+    height: 900px;
+    top: 50px;
+    background-size: cover;
+    background-image: url(media/lu-chiachen-A58q9gc_M9Q-unsplash.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 375px){
+    #main-div{
+        background-image: none;
+    }
+}
+#main-div h1{
+    position: absolute;
+    top: 7%;
+    margin-left: 1.5vw;
+}
+footer{
+    position: relative;
+    background: black;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    
+}

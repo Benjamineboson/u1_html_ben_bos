@@ -1,0 +1,17 @@
+#gallery-button{
+    color: white;
+    background: green;
+}
+#gallery-button:hover{
+    background: rgb(2, 66, 2);
+    border-bottom-color: rgb(31, 196, 16);
+}
+#home-button{
+    background: white;
+    color: black;
+}
+#home-button:hover{
+    background: rgb(66, 70, 129);
+    color: white;
+    border-bottom-color: rgb(159, 139, 247);
+}
