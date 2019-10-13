@@ -221,6 +221,11 @@ footer,a,p{
         margin-left: 1em; 
     }
 }
+@media only screen and (max-width: 1500px){
+    #socialmedia-links{
+        font-size: 2em; 
+    }
+}
 #twitter-link,#facebook-link,#snapchat-link,#instagram-link{
     margin-left: 1em;
 }
@@ -236,8 +241,8 @@ footer,a,p{
 }
 @media only screen and (max-width: 1500px){
     #map{
-        width: 18em;
-        left: 33em;
+        width: 17em;
+        left: 25em;
     }
 }
 @media only screen and (max-width: 375px){
