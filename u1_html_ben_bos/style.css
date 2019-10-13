@@ -177,6 +177,19 @@ footer,a,p{
     margin-left: 2em;
     top: 32px;
 }
+@media only screen and (max-width: 757px){
+    #footer-contact-info{
+        position: relative;
+        margin-left: 17em;
+        
+        
+    }
+    #footer-email{
+        position: relative;
+        margin-left: 1em;
+        
+    }
+}
 @media only screen and (max-width: 375px){
     footer{
         font-size: 0.7em;
