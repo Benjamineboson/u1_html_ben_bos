@@ -232,14 +232,14 @@ footer,a,p{
 #map{
     border: none;
     position: absolute;
-    width: 50em;
+    width: 30em;
     height: 14em;
-    left: 81.5em;
+    left: 62em;
 }
 #map-div{
     width: 2px;
 }
-@media only screen and (max-width: 1500px){
+@media only screen and (max-width: 1200px){
     #map{
         width: 17em;
         left: 25em;
