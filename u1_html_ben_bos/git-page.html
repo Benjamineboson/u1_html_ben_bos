@@ -10,58 +10,40 @@
     <title>Startsida</title>
 </head>
 <body>
-      <div id="hamburger-menu">
+    <header id="hamburger-menu">
         <a id="hamburger-link"><hr><hr><hr></a>
         <nav id="dropdown-menu">
-            <a id="home-link" href="index.html">
-                <button type="button" id="home-drbutton">Home</button>
-            </a>
-            <a id="contact-link" href="contact-page.html">
-                <button type="button" id="contact-drbutton">Contact</button>
-            </a>
-            <a href="gallery-page.html">
-                <button type="button" id="gallery-drbutton">Gallery</button>
-            </a>
-            <a href="git-page.html">
-                <button type="button" id="git-drbutton">GitHub</button>
-            </a>
+            <button type="button" id="home-drbutton" onclick="location.href='index.html'">Home</button>
+            <button type="button" id="contact-drbutton" onclick="location.href='contact-page.html'">Contact</button>
+            <button type="button" id="gallery-drbutton" onclick="location.href='gallery-page.html'">Gallery</button>
+            <button type="button" id="git-drbutton" onclick="location.href='git-page.html'">GitHub</button>
         </nav>
-    </div>
-    <div id="first-div">
-        <nav>
-            <a href="index.html">
-                <button type="button" id="home-button">Home</button>
-            </a>
-            <a href="contact-page.html">
-                <button type="button" id="contact-button">Contact</button>
-            </a>
-            <a href="gallery-page.html">
-                <button type="button" id="gallery-button">Gallery</button>
-            </a>
-            <a href="git-page.html">
-                <button type="button" id="git-button">GitHub</button>
-            </a> 
+    </header>
+    <header id="reg-menu">
+        <nav id="menu-nav">
+            <button type="button" onclick="location.href='index.html'" id="home-button">Home</button>
+            <button type="button" onclick="location.href='contact-page.html'" id="contact-button">Contact</button>
+            <button type="button" onclick="location.href='git-page.html'" id="git-button">gitHub</button>
+            <button type="button" onclick="location.href='gallery-page.html'" id="gallery-button">Gallery</button>
         </nav>
-    </div>
+    </header>
     <div id="main-div">
+        <img id="train-background" src="media/lu-chiachen-A58q9gc_M9Q-unsplash.jpg" alt="background">
         <h1>Git</h1>
     </div>
     <footer>
         <hr id="footer-hr">
-        <div id="map-div">
             <iframe id="map" src="https://maps.google.com/maps?q=v%C3%A4xj%C3%B6&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-        </div>
         <p id="footer-contact-info">(+46)73-4403296</p>             
-        <a id ="footer-email" href="https://mail.google.com/mail/?view=cm&fs=1&to=benjamineboson@gmail.com&su=SUBJECT&body=BODY" target="_blank">BenjaminEBoson@gmail.com</a>     
-        <div id="socialmedia-links">
-        <nav>
+        <a id ="footer-email" href="https://mail.google.com/mail/?view=cm&fs=1&to=benjamineboson@gmail.com&su=SUBJECT&body=BODY" target="_blank">BenjaminEBoson@gmail.com</a>    
+        <nav id="socialmedia-links">
             <a href="http://youtube.com" class="fa fa-youtube" target="_blank"></a>
             <a id="twitter-link" href="http://twitter.com" class="fa fa-twitter" target="_blank"></a>
             <a id="facebook-link" href="http://facebook.com" class="fa fa-facebook" target="_blank"></a>
             <a id="snapchat-link" href="http://snapchat.com" class="fa fa-snapchat-ghost" target="_blank"></a>
             <a id="instagram-link" href="http://instagram.com" class="fa fa-instagram" target="_blank"></a>
         </nav>  
-        </div>
     </footer>
 </body>
 </html>
+
