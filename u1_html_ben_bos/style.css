@@ -282,6 +282,7 @@ footer,a{
     background-image: linear-gradient(to right, rgb(35, 48, 117),rgb(90, 88, 218));
     border-radius: 5px;
     z-index: 2;
+    font-size: 1.5em;
 }
 input{
     position: relative;
@@ -301,7 +302,7 @@ input{
         top: 7px;
     }
 }
-@media only screen and (max-width: 375.5px){
+@media only screen and (max-width: 420px){
     html{
         font-size: 0.7em;
     }
@@ -314,12 +315,12 @@ input{
     top: 80px;
     }
 }
-@media only screen and (max-width: 375.5px){
+@media only screen and (max-width: 420px){
     .change-container{
         top: 100px;
     }
 }
-@media only screen and (max-width: 375.5px){
+@media only screen and (max-width: 420px){
     #hamburger-menu{
         display: block;
     }
@@ -356,7 +357,7 @@ input{
         width: 200px;
     } 
 }
-@media only screen and (max-width: 375.5px){
+@media only screen and (max-width: 420px){
     footer{
         font-size: 0.8em;
         height: 200px;
@@ -367,7 +368,7 @@ input{
         
     } 
 }
-@media only screen and (max-width: 375.5px){
+@media only screen and (max-width: 420px){
     input{
         font-size: 0.8em;
         left: 2em;
@@ -381,17 +382,12 @@ input{
         margin-right: 5px;
     }
 }
-@media only screen and (max-width: 375.5px){
+@media only screen and (max-width: 420px){
     #socialmedia-links{
         margin-left: 19em;
     }
 }
 @media only screen and (max-width: 757px){
-    .dr-button button{
-        font-size: 1.5em;
-    }
-}
-@media only screen and (max-width: 375.5px){
     .dr-button button{
         font-size: 1.5em;
     }
@@ -401,9 +397,39 @@ input{
     #vl{
         position: absolute;
         border-left: 4px solid white;
-        height: 700px;
-        width: 0;
+        height: 360px;
         top: 370px;  
+    }
+    .index-text1{
+        margin-top: 360px;
+    }
+    .index-text2{
+        margin-top: 360px;
+    }
+    #references{
+        top: 950px;
+    }
+    footer{
+        top: 1200px;
+    }
+    #reference-three,#reference-four{
+        display: none;
+    }
+    #reference-one{
+        width: 40%;
+    }
+    #reference-two{
+        width: 40%;
+        margin-left: 55%;
+    }
+    
+}
+@media only screen and (max-width: 420px){
+    .dr-button button{
+        font-size: 1.5em;
+    }
+    #main-content{
+        height: 300px;
     }
     #reference-two,#reference-three,#reference-four{
         display: none;
@@ -411,12 +437,13 @@ input{
     #reference-one{
         width: 90%;
     }
+    
 }
-@media only screen and (max-width: 375.5px){
+@media only screen and (max-width: 420px){
     .index-text1{
         margin-left: 5%;
         width: 90%;
-        margin-top: 370px;
+        margin-top: 380px;
     }
     .index-text2{
         margin-left: 5%;
