@@ -49,6 +49,9 @@
     width: 15%;
     margin-left: 80%;
 }
+#reference-one,#reference-two,#reference-three,#reference-four{
+    margin-top: 20px;
+}
 .index-text1{
     text-align: center;
     position: absolute;
@@ -252,8 +255,8 @@ footer,a{
 }
 #socialmedia-links{
     position: absolute;
-    margin-left: 22em;
-    
+    margin-left: 22em; 
+    bottom: 0;
 }
 
 #socialmedia-links,a:hover{
@@ -265,7 +268,6 @@ footer,a{
     position: absolute;
     width: 330px;
     height: 270px;
-
 }
 #map-div{
     width: 2px;
@@ -290,38 +292,6 @@ input{
     border: none;
     box-shadow: 2px 2px rgb(170, 168, 164);
 }
-#backdrop{
-    position: absolute;
-    height: 1000px;
-    margin-left: 5%;
-    margin-top: 5%;
-    width: 95%;
-    background: black;
-    top: 20px;
-    border-radius: 10px 0px 0px 0px;
-    box-shadow: 2px 2px 2px 2px rgb(110, 110, 110);
-}
-@media only screen and (max-width: 375px){
-    #backdrop{
-        width: 100%;
-        margin-left: 0;
-    }
-}
-.change-container{
-    position: absolute;
-    top: 150px;
-    left: 5em;
-}
-.container img{
-    margin: 10px;
-    width: 200px;
-    border: 2px solid white;
-}
-.container h2{
-    color: aliceblue;
-    margin-left: 3em;
-}
-
 @media only screen and (max-width: 757px){
     html{
         font-size: 70%;
@@ -330,12 +300,12 @@ input{
         top: 7px;
     }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375.5px){
     html{
-        font-size: 50%;
+        font-size: 0.7em;
     }
     #hamburger-logo{
-        top: 10px;
+        top: 8px;
     }
 }
 @media only screen and (max-width: 757px){
@@ -343,12 +313,12 @@ input{
     top: 80px;
     }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375.5px){
     .change-container{
         top: 100px;
     }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375.5px){
     #hamburger-menu{
         display: block;
     }
@@ -378,36 +348,71 @@ input{
 
 @media only screen and (max-width: 757px){
     footer{
-        font-size: 0.7em;
-        height: 230px;
-    }
-}
-@media only screen and (max-width: 375px){
-    footer{
-        font-size: 0.7em;
+        font-size: 0.9em;
         height: 200px;
     }
+    #map{
+        height: 200px;
+        width: 200px;
+    } 
 }
-@media only screen and (max-width: 375px){
-    input{
+@media only screen and (max-width: 375.5px){
+    footer{
         font-size: 0.8em;
-        left: 2em;
+        height: 200px;
     }
-}
-@media only screen and (max-width: 375px){
     #map{
         height: 200px;
         width: 200px;
         
     } 
-} 
-@media only screen and (max-width: 757px){
-    #socialmedia-links{
-        margin-left: 44em;
+}
+@media only screen and (max-width: 375.5px){
+    input{
+        font-size: 0.8em;
+        left: 2em;
     }
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 757px){
     #socialmedia-links{
-        margin-left: 30em;
+        margin-left: 17em;
+    }
+    #socialmedia-list a:not(.contact-link){
+        margin-right: 5px;
+    }
+}
+@media only screen and (max-width: 375.5px){
+    #socialmedia-links{
+        margin-left: 19em;
+    }
+}
+@media only screen and (max-width: 757px){
+    .dr-button button{
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width: 375.5px){
+    .dr-button button{
+        font-size: 1.5em;
+    }
+    .index-text1,.index-text2{
+        margin-top: 350px;
+    }
+    #main-content{
+        height: 300px;
+    }
+    #vl{
+        position: absolute;
+        border-left: 4px solid white;
+        height: 700px;
+        width: 0;
+        top: 370px;  
+    }
+    #reference-two,#reference-three,#reference-four{
+        display: none;
+    }
+    #reference-one{
+        
+        width: 90%;
     }
 }
