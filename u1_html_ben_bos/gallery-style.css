@@ -1,20 +1,19 @@
 
 #gallery-button{
-    color: white;
-    background: green;
+    color: rgb(54, 53, 53);
+    background: rgb(243, 227, 5);
 }
 #gallery-button:hover{
-    background: rgb(2, 66, 2);
-    border-bottom-color: rgb(31, 196, 16);
+    background: rgb(94, 88, 17);
+    color: rgb(255, 255, 119);
 }
 #home-button{
-    background: white;
-    color: black;
+    background: rgb(54, 53, 53);
+    color:  rgb(134, 134, 23);
 }
 #home-button:hover{
-    background: rgb(66, 70, 129);
-    color: white;
-    border-bottom-color: rgb(159, 139, 247);
+    background: rgb(31, 31, 31);
+    color: rgb(255, 255, 119);
 }
 #reg-menu{
     height: 50px;
@@ -35,10 +34,11 @@
 a:hover{
     text-decoration: none;
 }
-#container h2{
-    background: rgb(71, 70, 70);
-    margin-top: 10px;
-    border-radius: 4px;
+#trains-h1{
+    color: rgb(168, 163, 163);
+}
+#trains-h1::first-letter{
+    color: rgb(255, 241, 45);
 }
 @media only screen and (max-width: 757px){
     body{
@@ -46,16 +46,11 @@ a:hover{
     }
 }
 @media only screen and (max-width: 757px){
-    #container{
-        width: 50em;
-        left: -20px;
-        top: 900px;
-    }
-    #container img{
+    .container img{
         margin: 5px;
         width: 100px;
     }
-    #container h2{
+    .container h2{
         height: 15px;
         font-size: 13px;
     }
@@ -135,7 +130,7 @@ a:hover{
         width: 20em;
         margin-left: 1em;
     }
-    #container img{
+    .container img{
         width: 80px;
     }
 } 

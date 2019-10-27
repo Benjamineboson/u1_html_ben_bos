@@ -1,17 +1,16 @@
 #git-button{
-    color: white;
-    background: green;
+    color: rgb(54, 53, 53);
+    background: rgb(243, 227, 5);
 }
 #git-button:hover{
-    background: rgb(2, 66, 2);
-    border-bottom-color: rgb(31, 196, 16);
+    background: rgb(94, 88, 17);
+    color: rgb(255, 255, 119);
 }
 #home-button{
-    background: white;
-    color: black;
+    background: rgb(54, 53, 53);
+    color:  rgb(134, 134, 23);
 }
 #home-button:hover{
-    background: rgb(66, 70, 129);
-    color: white;
-    border-bottom-color: rgb(159, 139, 247);
+    background: rgb(31, 31, 31);
+    color: rgb(255, 255, 119);
 }
