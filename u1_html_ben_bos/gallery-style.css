@@ -1,16 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
 #gallery-button{
-    color: rgb(54, 53, 53);
-    background: rgb(243, 227, 5);
+    color: rgb(3, 45, 231);
+    background: rgb(120, 120, 153);
 }
 #gallery-button:hover{
-    background: rgb(94, 88, 17);
-    color: rgb(255, 255, 119);
+    background: rgb(1, 3, 32);
+    color: rgb(175, 176, 223);
 }
-#home-button{
-    background: rgb(54, 53, 53);
-    color:  rgb(134, 134, 23);
+footer{
+    top: 1670px;
 }
-#home-button:hover{
-    background: rgb(31, 31, 31);
-    color: rgb(255, 255, 119);
+#header-h1{
+    color: rgb(55, 55, 184);
+} 
+button:hover,#home-button:hover{
+    background: rgb(4, 1, 32);
+    color: rgb(55, 55, 184);
+} 
+button,#home-button{
+    background: rgb(220, 213, 255);
+    color:  rgb(2, 2, 34);
 }
+.grid{
+    font-family: 'Staatliches', cursive;
+    top: 50px;
+    position: absolute;
+    width: 100%;
+}
+.grid h3{
+    margin-top: 30px;
+}
+.grid h3,.grid p{
+    margin-left: 30px;
+}
+.grid img{
+    margin-top: 15px;
+    height: 300px;
+    width: 300px;
+    background: black;
+}
+.col-dark{
+    margin-top: 15px;
+    width: 60%;
+    color: rgb(234, 234, 238);
+    background: rgb(0, 0, 0);
+    position: absolute;
+    left: 300px;
+    height: 300px;
+    margin-left: 15px;
+}
+#reg-menu{
+    background: rgb(220, 213, 255);
+}
+html{
+    background: rgb(0, 0, 0);
+}
+#sales-img{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 100px;
+}
+.sales-col h3{
+    margin-top: 50px;
+}
+.sales-col h3,.sales-col p{
+    margin-left: 35px;
+}
+.f-size-2{
+    font-size: 3em;
+}
+.f-size-1{
+    font-size: 1.5em;
+    color: rgb(255, 14, 14);
+}
+.f-size-3{
+    font-size: 1.3em;
+    color: rgb(109, 106, 106);
+}
+@media only screen and (max-width: 757px){
+    .grid img{
+        height: 200px;
+        width: 200px;
+    }
+    .col-dark{
+        left: 200px;
+        height: 200px;
+        margin-left: 15px;
+        width: 48%;
+        font-size: 0.9em;
+    }
+    footer{
+        top: 1150px;
+    }
+    #sales-img{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .grid h3,.grid p{
+        margin-left: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 420px){
+    .grid img{
+        height: 170px;
+        width: 170px;
+        margin-bottom: 30px;
+    }
+    .col-dark{
+        left: 170px;
+        height: 170px;
+        font-size: 0.8em;
+        margin-bottom: 30px;
+    }
+    footer{
+        top: 1150px;
+    }
+    #sales-img{
+        height: 170px;
+        width: 170px;
+    }
+} 

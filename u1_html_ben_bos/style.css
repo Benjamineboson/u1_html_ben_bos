@@ -26,28 +26,22 @@
     top: 1500px;
     font-size: 0.8em;
 }
-#reference-one{
-    text-align: center;
-    position: absolute;
-    width: 20%;
+#reference-one{ 
     margin-left: 10%;
 }
 #reference-two{
-    text-align: center;
-    position: absolute;
-    width: 20%;
     margin-left: 40%;
 }
-#reference-three{
-    text-align: center;
-    position: absolute;
-    width: 20%;
+#reference-three{ 
     margin-left: 70%;
 }
 #reference-one,#reference-two,#reference-three{
+    text-align: center;
+    position: absolute;
     margin-top: 25px;
+    width: 20%;
 }
-.index-text1{
+.index-text1,.index-text2{
     text-align: center;
     position: absolute;
     margin-top: 580px;
@@ -55,23 +49,15 @@
     width: 30%;
     color: rgb(134, 134, 23);
     text-shadow: 2px 2px 4px #000000;
-    
+}
+.index-text2{
+    margin-left: 60%;
 }
 .index-text1 img,.index-text2 img{
     box-shadow: 2px 2px 4px rgb(17, 17, 17);
     margin-top: 15px;
     width: 100%;
 }
-.index-text2{
-    text-align: center;
-    position: absolute;
-    margin-top: 580px;
-    margin-left: 60%;
-    width: 30%;
-    color: rgb(134, 134, 23);
-    text-shadow: 2px 2px 4px #000000;
-}
-
 .index-text1 p{
     color: rgb(194, 194, 165);
     text-shadow: none;
@@ -295,41 +281,14 @@ input{
     border: none;
     box-shadow: 2px 2px rgb(170, 168, 164);
 }
-@media only screen and (max-width: 757px){
-    html{
-        font-size: 70%;
-    }
-    #hamburger-logo{
-        top: 7px;
-    }
-}
-@media only screen and (max-width: 420px){
-    html{
-        font-size: 0.7em;
-    }
-    #hamburger-logo{
-        top: 8px;
-    }
-}
-@media only screen and (max-width: 757px){
-    .change-container{
-    top: 80px;
-    }
-}
-@media only screen and (max-width: 420px){
-    .change-container{
-        top: 100px;
-    }
-}
-@media only screen and (max-width: 420px){
-    #hamburger-menu{
-        display: block;
-    }
-    #reg-menu{
-        display: none;
-    }
-}
-@media only screen and (max-width: 950px){
+
+/*
+
+MAX WIDTH 980px
+
+*/
+
+@media only screen and (max-width: 980px){
     #hamburger-menu{
         display: block;
     }
@@ -340,15 +299,27 @@ input{
         margin-top: 184px;
     }
 }
+
+
+/*
+
+MAX WIDTH 757px
+
+*/
+
 @media only screen and (max-width: 757px){
+    html{
+        font-size: 70%;
+    }
+    #hamburger-logo{
+        top: 7px;
+    }
     #train-background{
         display: none;
     }
     #main-div{
         font-size: 0.7em;
     }
-}
-@media only screen and (max-width: 757px){
     footer{
         font-size: 0.9em;
         height: 200px;
@@ -357,38 +328,12 @@ input{
         height: 200px;
         width: 200px;
     } 
-}
-@media only screen and (max-width: 420px){
-    footer{
-        font-size: 0.8em;
-        height: 200px;
-    }
-    #map{
-        height: 200px;
-        width: 200px;
-        
-    } 
-}
-@media only screen and (max-width: 420px){
-    input{
-        font-size: 0.8em;
-        left: 2em;
-    }
-}
-@media only screen and (max-width: 757px){
     #socialmedia-links{
         margin-left: 17em;
     }
     #socialmedia-list a:not(.contact-link){
         margin-right: 5px;
     }
-}
-@media only screen and (max-width: 420px){
-    #socialmedia-links{
-        margin-left: 19em;
-    }
-}
-@media only screen and (max-width: 757px){
     .dr-button button{
         font-size: 1.5em;
     }
@@ -408,10 +353,10 @@ input{
         margin-top: 360px;
     }
     #references{
-        top: 1000px;
+        top: 1120px;
     }
     footer{
-        top: 1250px;
+        top: 1370px;
     }
     #reference-three{
         display: none;
@@ -425,7 +370,42 @@ input{
     }
     
 }
+
+
+/*
+
+MAX WIDTH 420px
+
+*/
+
 @media only screen and (max-width: 420px){
+    html{
+        font-size: 0.7em;
+    }
+    #hamburger-logo{
+        top: 8px;
+    }
+    #hamburger-menu{
+        display: block;
+    }
+    #reg-menu{
+        display: none;
+    }
+    footer{
+        font-size: 0.8em;
+    }
+    #map{
+        height: 200px;
+        width: 200px;
+        
+    } 
+    input{
+        font-size: 0.8em;
+        left: 2em;
+    }
+    #socialmedia-links{
+        margin-left: 19em;
+    }
     .dr-button button{
         font-size: 1.5em;
     }
@@ -438,9 +418,6 @@ input{
     #reference-one{
         width: 90%;
     }
-    
-}
-@media only screen and (max-width: 420px){
     .index-text1{
         margin-left: 5%;
         width: 90%;
