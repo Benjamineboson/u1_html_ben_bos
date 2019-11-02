@@ -4,6 +4,13 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
 
+.reference-link a{
+    font-size: 1.5em;
+    color: black;
+}
+.reference-link a:hover{
+    color: rgb(83, 83, 83);
+}
 .margin-left-10{
     margin-left: 10%;
 }
@@ -27,7 +34,7 @@
     height: 280px;
     width: 100%;
     position: absolute;
-    top: 1500px;
+    top: 1650px;
     font-size: 0.8em;
 }
 #reference-one{ 
@@ -45,28 +52,21 @@
     margin-top: 25px;
     width: 20%;
 }
-.index-text1,.index-text2{
+.index-text1{
     text-align: center;
     position: absolute;
     margin-top: 580px;
-    margin-left: 10%;
-    width: 30%;
+    margin-left: 15%;
+    width: 70%;
     color: rgb(134, 134, 23);
     text-shadow: 2px 2px 4px #000000;
 }
-.index-text2{
-    margin-left: 60%;
-}
-.index-text1 img,.index-text2 img{
-    box-shadow: 2px 2px 4px rgb(17, 17, 17);
+.index-text1 img{
     margin-top: 15px;
     width: 100%;
+    max-width: 800px;
 }
 .index-text1 p{
-    color: rgb(194, 194, 165);
-    text-shadow: none;
-}
-.index-text2 p{
     color: rgb(194, 194, 165);
     text-shadow: none;
 }
@@ -85,7 +85,8 @@
     margin: 0;
     margin-left: 47%;
     margin-top: 5px;
-    color: rgb(134, 134, 23);
+    background: rgb(134, 134, 134);
+    color: rgb(0, 0, 0);
     text-shadow: 2px 2px 4px #000000;
     font-family: 'Righteous', cursive;
 }
@@ -106,7 +107,7 @@ hr{
     top: 0.3em;
 }
 html{
-    background: rgb(32, 31, 31);
+    background: rgb(0, 0, 0);
 }
 #main-content{
     text-align: center;
@@ -167,7 +168,7 @@ html{
     z-index: 3;
 }
 #reg-menu{
-    background: rgb(54, 53, 53);
+    background: rgb(134, 134, 134);
     width: 100%;
     height: 50px;
     position: fixed;
@@ -180,8 +181,8 @@ body{
 button{
     position: absolute;
     border-style: none;
-    background: rgb(54, 53, 53);
-    color:  rgb(134, 134, 23);
+    background: rgb(134, 134, 134);
+    color:  rgb(0, 0, 0);
     width: 6em;
     height: 50px; 
     cursor: pointer;
@@ -200,8 +201,8 @@ a{
     outline: 0;
 }
 button:hover{
-    background: rgb(31, 31, 31);
-    color: rgb(255, 255, 119);
+    background: rgb(0, 0, 0);
+    color:  rgb(201, 201, 201);
 }
 #contact-button{
     left: 12em;    
@@ -214,12 +215,12 @@ button:hover{
 }
 #home-button{
     left: 0em;
-    color: rgb(54, 53, 53);
-    background: rgb(243, 227, 5);
+    background: rgb(26, 17, 17);
+    color: rgb(201, 201, 201);
 }
 #home-button:hover{
-    background: rgb(94, 88, 17);
-    color: rgb(255, 255, 119);
+    background: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
 }
 footer{
     border-top-style: solid;
@@ -229,7 +230,7 @@ footer{
     background: black;
     width: 100%;
     height: 270px;
-    top: 1850px;
+    top: 2000px;
     
 }
 #socialmedia-list{
@@ -270,27 +271,7 @@ footer,a{
 #map-div{
     width: 2px;
 }
-#contact-form{
-    position: absolute;
-    top: 200px;
-    left: 0;
-    width: 80%;
-    margin-left: 10%;
-    background-image: linear-gradient(to right, rgb(35, 48, 117),rgb(90, 88, 218));
-    border-radius: 5px;
-    z-index: 2;
-    font-size: 1.5em;
-}
-input{
-    position: relative;
-    width: 80%;
-    left: 1.5em;
-    margin: 13px;
-    height: 40px;
-    border-radius: 4px;
-    border: none;
-    box-shadow: 2px 2px rgb(170, 168, 164);
-}
+
 
 /*
 
@@ -361,10 +342,7 @@ MAX WIDTH 757px
         top: 370px;  
     }
     .index-text1{
-        margin-top: 360px;
-    }
-    .index-text2{
-        margin-top: 360px;
+        margin-top: 410px;
     }
     #references{
         height: 300px;
@@ -408,16 +386,12 @@ MAX WIDTH 420px
     }
     footer{
         font-size: 0.8em;
-        top: 2000px;
+        top: 1350px;
     }
     #map{
         height: 200px;
         width: 200px;
         
-    } 
-    input{
-        font-size: 0.8em;
-        left: 2em;
     }
     #socialmedia-links{
         margin-left: 19em;
@@ -439,16 +413,11 @@ MAX WIDTH 420px
         width: 90%;
         margin-top: 380px;
     }
-    .index-text2{
-        margin-left: 5%;
-        width: 90%;
-        margin-top: 1000px;
-    }
     #vl{
         display: none;
     }
     #references{
-        top: 1650px;
+        top: 1000px;
     }
     #reference-one{
         margin-left: 5%;

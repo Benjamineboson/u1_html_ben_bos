@@ -1,19 +1,61 @@
+
 #contact-button{
-    color: rgb(54, 53, 53);
-    background: rgb(243, 227, 5);
+    background: rgb(26, 17, 17);
+    color: rgb(201, 201, 201);
 }
 #contact-button:hover{
-    background: rgb(94, 88, 17);
-    color: rgb(255, 255, 119);
+    background: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
 }
 #home-button{
-    background: rgb(54, 53, 53);
-    color:  rgb(134, 134, 23);
+    background: rgb(134, 134, 134);
+    color:  rgb(0, 0, 0);
 }
 #home-button:hover{
-    background: rgb(31, 31, 31);
-    color: rgb(255, 255, 119);
+    background: rgb(0, 0, 0);
+    color:  rgb(201, 201, 201);
 }
 footer{
-    top: 900px;
+    top: 700px;
+}
+#contact-form{
+    position: absolute;
+    top: 300px;
+    width: 80%;
+    left: 10%;
+    margin: 0;
+    background-image: url(media/planet-colony.jpg);
+    border-radius: 5px;
+    z-index: 2;
+    font-size: 1.5em;
+}
+#contact-form input{
+    width: 90%;
+    margin-left: 5%;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 2px 2px rgb(170, 168, 164);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#contact-form h3{
+    margin-left: 5%;
+    color: rgb(250, 250, 250);
+}
+#contact-form h3:first-of-type{
+    margin-top: 5px;
+}
+#main-div{
+    font-family: 'Bowlby One SC', cursive;
+}
+#main-div h2{
+    text-align: center;
+    position: absolute;
+    background: black;
+    left: 10%;
+    width: 80%;
+    top: 70px;
+    margin-bottom: 20px;
+    color: rgb(250, 250, 250);
 }

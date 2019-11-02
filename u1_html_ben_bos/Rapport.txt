@@ -1,19 +1,24 @@
 * Rapport - Beskriv vad ni gjort för att göra webbplats responsiv (exempelvis vilka skärmar ni utvecklat för, hur den beter sig vid förstoring och förminskning):
 
-För att göra min webbplats responsiv har jag använt mig av media queries. Jag använder mig av tre brytpunkter, 980px, 757px och 420px.
-När sidans bredd är mindre än 980px (Den ungefärliga skärmbredden av en ipad/kindle och liknande plattor), visas en hamburgarmeny istället för den vanliga menyn.
-När sidans bredd är mindre än 757px (En skärmbredd som passar ex. Samsung Galaxy och iPhone i liggande landskapsläge), byts den vanliga menyn ut mot en hamburgarmeny 
-och fonter/bilder förminskas i storlek för att passa den nya bredden.
-När sidans bredd är mindre än 420px (En skärmbredd som passar ex. Samsung Galaxy och iPhone i stående porträttläge), förminskas fonter ytterligare.
-På sidan index.html placeras element (bilder och fonter) under varandra istället för bredvid. Sidan blir även längre för att få plats med allting.
-På sidan gallery.html/about.html/contact.html/ minskar storleken på alla element (bilder, fonter och höjd på sidan) och anpassar sig till den nya bredden.
+   För att göra min webbplats responsiv har jag använt mig av media queries. Först börjar jag med att skapa en meta taggen viewport 
+   (<meta name="viewport" content="width=device-width, initial-scale=1.0">),
+   på så sätt kan webbsidan anpassas till olika skärmar. Jag har även använt % och em som till tex. fontstorlek och marginaler så att ingenting hamnar utanför skärmen.
+   Sedan använder jag mig av tre brytpunkter, 980px, 757px och 420px:
+1. När sidans bredd är mindre än 980px (Den ungefärliga skärmbredden av en ipad/kindle och liknande plattor), visas en hamburgarmeny istället för den vanliga menyn.
+2. När sidans bredd är mindre än 757px (En skärmbredd som passar ex. Samsung Galaxy och iPhone i liggande landskapsläge), byts den vanliga menyn ut mot en hamburgarmeny 
+   och fonter/bilder förminskas i storlek för att passa den nya bredden.
+3. När sidans bredd är mindre än 420px (En skärmbredd som passar ex. Samsung Galaxy och iPhone i stående porträttläge), förminskas fonter ytterligare.
+   På sidan index.html placeras element (bilder och fonter) under varandra istället för bredvid. Sidan blir även längre för att få plats med allting. 
+   På sidan gallery.html/about.html/contact.html/ minskar storleken på alla element (bilder, fonter och höjd på sidan) och anpassar sig till den nya bredden.
 
 
 * Rapport - Beskriv vad ni gjort för att optimisera webbplatsen för SEO.
 
-Jag använder mig av META taggar i min head. Keywords och description, båda innehåller bla. nyckelordet planet.
-Min sida har länk struktur. Alla sidor på min webbplats har länkar till samtliga sidor. Länkarna hittas i knapparna i huvudmenyn/hamburgarmenyn.
-Jag har alt-taggar på alla min bilder, de flesta innehåller nyckelordet planet.
-På samtliga sidor på min webbplats använder jag mig av order planet i mina headings/paragrafer. Då webbplatsen är för ett företag som säljer planeter, har jag många tillfällen att inkludera ordet planet.
-Titlarna på webbplatsens sidor har även nyckelordet planet i sig.
-Min webbplats är mobile-friendly, alla sidor är responsiva och fungerar bra på mobiler.  
+1. Jag använder mig av META taggar i min head. Keywords och description, båda innehåller bla. nyckelordet planet.
+2. Min sida har länk struktur. Alla sidor på min webbplats har länkar till samtliga sidor. Länkarna hittas i knapparna i huvudmenyn/hamburgarmenyn. 
+   Jag har även lagt till länkar till gallery.html i diven med idt "references" på startsidan (index.html)
+3. Jag har alt-taggar på alla min bilder, de flesta innehåller nyckelordet planet.
+4. På samtliga sidor på min webbplats använder jag mig av order planet i mina headings/paragrafer. Då webbplatsen är för ett företag som säljer planeter, har jag många tillfällen att inkludera ordet planet.
+   Titlarna på webbplatsens sidor har även nyckelordet planet i sig.
+5. Min webbplats är mobile-friendly, alla sidor är responsiva och fungerar bra på mobiler/plattor. 
+   Jag använder mig av tre brytpunkter för att göra sidan responsiv till många olika objekt. 

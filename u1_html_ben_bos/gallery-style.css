@@ -11,9 +11,6 @@
 footer{
     top: 1770px;
 }
-#header-h1{
-    color: rgb(0, 0, 0);
-} 
 button:hover,#home-button:hover{
     background: rgb(0, 0, 0);
     color:  rgb(201, 201, 201);
@@ -51,9 +48,6 @@ button,#home-button{
     height: 300px;
     margin-left: 15px;
     margin-bottom: 30px;
-}
-#reg-menu{
-    background: rgb(134, 134, 134);
 }
 html{
     background: rgb(0, 0, 0);

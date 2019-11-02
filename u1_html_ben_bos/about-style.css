@@ -1,27 +1,19 @@
-html{
-    background: rgb(5, 5, 32);
-}
-#reg-menu{
-    background: rgb(242, 243, 255);
-}
-#header-h1{
-    color: rgb(5, 5, 32);
-}
+
 #about-button{
-    color: rgb(54, 53, 53);
-    background: rgb(243, 227, 5);
+    background: rgb(26, 17, 17);
+    color: rgb(201, 201, 201);
 }
 #about-button:hover{
-    background: rgb(94, 88, 17);
-    color: rgb(255, 255, 119);
+    background: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
 }
 #home-button{
-    background: rgb(54, 53, 53);
-    color:  rgb(134, 134, 23);
+    background: rgb(134, 134, 134);
+    color:  rgb(0, 0, 0);
 }
 #home-button:hover{
-    background: rgb(31, 31, 31);
-    color: rgb(255, 255, 119);
+    background: rgb(0, 0, 0);
+    color:  rgb(201, 201, 201);
 }
 #main-content{
     background-image: url(media/planet-colony.jpg);
@@ -38,4 +30,27 @@ html{
     width: 70%;
     color: rgb(250, 250, 250);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+footer{
+    top: 900px;
+}
+@media only screen and (max-width: 757px){
+    .about-text1 h2,.about-text p{
+        margin-top: -150px;
+    }
+    footer{
+        top: 700px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .about-text1 h2,.about-text p{
+        margin-top: -200px;
+    }
+    #main-content h1,#main-content h2{
+        margin-top: 5px;
+    }
+    footer{
+        top: 720px;
+    }
+
 }
